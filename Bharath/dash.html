@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Your existing meta tags and title here -->
+    <style>
+        /* Include your CSS styles here or link to an external CSS file */
+
+        /* Header and Navigation Styles */
+        header {
+            background-color: #1DA1F2;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        li a:hover {
+            background: white;
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+        /* Existing styles... */
+
+        /* Increase image size */
+        img {
+            display: block;
+            margin: 20px;
+            max-width: 200px; /* Increase the maximum width as desired */
+            height: auto; /* Maintain the aspect ratio */
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        /* Style text under the images */
+        .image-container {
+            display: grid;
+            
+            grid-template-columns: repeat(3, 1fr);
+            gap: 90px;
+        }
+
+        
+        p {
+            cursor: pointer;
+            text-justify: auto;
+            font-size: larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        nav a:hover {
+            color: black;
+            border-radius: 20px;
+        }
+
+        /* Dashboard Styles */
+
+        
+
+        main {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <form action="/dashboard1" method="get">
+    
+        <li><a href="dash.html">Home</a></li>
+        <li><a href="contactsport.html">Contact Us</a></li>
+        <li><a href="aboutsport.html">About</a></li>        
+    </div>
+    </form>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <main>
+        <h2>Welcome to Sportso</h2>
+        <div class="image-container">
+            <div>
+                <img src="C:\Users\vtu24\OneDrive\Pictures\cri.jpg" alt="Image 2" onclick="redirectToPage('https://www.icc-cricket.com/homepage')">
+                <p onclick="redirectToPage('https://www.icc-cricket.com/homepage')">Cricket</p>
+            </div>
+            <div>
+                <img src="C:\Users\vtu24\OneDrive\Pictures\football.jpg" alt="Image 1" onclick="redirectToPage('https://www.fifa.com/fifaplus/en')">
+                <p onclick="redirectToPage('https://www.fifa.com/fifaplus/en')">Football</p>
+            </div>
+            <div>
+                <img src="C:\Users\vtu24\OneDrive\Pictures\basketball.jpg" alt="Image 3" onclick="redirectToPage('https://www.fiba.basketball/')">
+                <p onclick="redirectToPage('https://www.fiba.basketball/')">Basketball</p>
+            </div>
+            <div>
+                <img src="C:\Users\vtu24\OneDrive\Pictures\teniss.jpg" alt="Image 4" onclick="redirectToPage('https://www.fih.hockey/')">
+                <p onclick="redirectToPage('https://www.fih.hockey/')">Tennis</p>
+            </div>
+            <div>
+                <img src="C:\Users\vtu24\OneDrive\Pictures\hoky.jpg" alt="Image 5" onclick="redirectToPage('https://www.itftennis.com/en/')">
+                <p onclick="redirectToPage('https://www.itftennis.com/en/')">Hockey</p>
+            </div>
+            <div>
+                <img src="C:\Users\vtu24\OneDrive\Pictures\baatmantan.jpg" alt="Image 6" onclick="redirectToPage('https://bwfbadminton.com/')">
+                <p onclick="redirectToPage('https://bwfbadminton.com/')">Badminton</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Your existing JavaScript function here -->
+</body>
+</html>
+    <script>
+        function redirectToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
